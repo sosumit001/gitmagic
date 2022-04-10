@@ -77,6 +77,7 @@ body{
         height: 120vh;
     }
 }
+
 #home-get-started{
     display: flex;
     fill: rgba(255, 255, 255, 0.469);
@@ -186,4 +187,13 @@ margin-top: 70px;
     }
 }
 
-
+@media only screen and (max-width: 500px){
+    #elementor-section span{
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 400px){
+    #elementor-section span{
+        width: 300px;
+    }
+}

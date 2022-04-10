@@ -37,7 +37,13 @@
     <script src="script.js" type="module"></script>
     <script src="./component/header.js" type="module"></script>
     <script src="./component/home.js" type="module"></script>
-   
+   <script>
+     document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems,'.collapsible');
+  });
+
+   </script>
     
 </body>
 </html>

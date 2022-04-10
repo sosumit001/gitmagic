@@ -9,6 +9,7 @@ window.onload = () =>{
     let homeSlogen = document.querySelector('#home-page-intro')
     let brandSection = document.querySelector("#brand-section");
     
+
     //add content to header 
     navWrapper.innerHTML = Header.header;
     mobileDemo.innerHTML = Header.mobiledemo;

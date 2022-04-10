@@ -13,9 +13,11 @@ const Header = {
       </ul>
     </div>
   </nav>`,
-  mobiledemo : ` <li><a href="sass.html">Sass</a></li>
-  <li><a href="badges.html">Components</a></li>
-  <li><a href="collapsible.html">Javascript</a></li>
-  <li><a href="mobile.html">Mobile</a></li>`,
+  mobiledemo : ` <li><a href="sass.html">Home</a></li>
+  <li><a href="badges.html">Services</a></li>
+  <li><a href="collapsible.html">Pricing</a></li>
+  <li><a href="mobile.html">Blog</a></li>
+  <a href="#" style = "display:inline-block; margin-left:5px" class = "btn blue white-text">LOGIN</a> <br> <br>
+  <a href="#" style = "border:1px solid white" class = "black-text white btn">GET STARTED</a>`,
 }
 export default Header;
